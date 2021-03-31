@@ -12,7 +12,7 @@ function Navbar() {
             <a className="mr-12">NerdCast <span className="text-theme-pink">Cyberpunk</span></a>
           </Link>
           <Link href='#'>
-            <a className="">NerdCast <span className="text-theme-orange">Especial RPG</span></a>
+            <a className="">NerdCast <span className="text-theme-orange">Crônicas de Ghanor</span></a>
           </Link>
       </div>
       <div>
