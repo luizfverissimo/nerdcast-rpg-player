@@ -25,6 +25,32 @@
       "linkDeezer": "https://deezer.page.link/14Tmq1KAQRyhFLvM7",
       "linkApple": "https://podcasts.apple.com/sg/podcast/nerdcast-602-rpg-call-of-cthulhu-2-o-horror-do-necronomicon/id381816509?i=1000408799932",
       "audio": "/audio/cthulhu2.mp3"
+    },
+    {
+      "type": "cthulhu",
+      "bg-image": "/cthulhu-bg.jpg",
+      "number": 3,
+      "title": "O despertar dos profundos",
+      "duration": "3 horas e 3 minutos",
+      "desc": "Os investigadores estão no coração das trevas. Cercados por inimigos, levando o Necronomicon a seu local de maior poder, eles afundam num poço de morte, horror e ódio. Mas o pior ainda está por vir… E a luta está longe de acabar!",
+      "linkJN": "https://jovemnerd.com.br/nerdcast/rpg-call-of-cthulhu-3-o-despertar-dos-profundos/",
+      "linkSpotify": "https://open.spotify.com/episode/3W5HxgUNlBT9PuFDsW6ON4",
+      "linkDeezer": "https://deezer.page.link/hLU1omEjeNzn9CRv9",
+      "linkApple": "https://podcasts.apple.com/br/podcast/nerdcast-666-rpg-call-of-cthulhu-3-o-despertar-dos-profundos/id381816509?i=1000433737676",
+      "audio": "/audio/cthulhu3.mp3"
+    },
+    {
+      "type": "cthulhu",
+      "bg-image": "/cthulhu-bg.jpg",
+      "number":4,
+      "title": "O último ritual",
+      "duration": "2 horas e 32 minutos",
+      "desc": "O mundo está à beira do apocalipse enquanto os cultistas se preparam para usar o Necronomicon na ilha de Heligoland. Os investigadores sacrificaram tudo na rota para o confronto final. Feridos e desesperados, eles são a última esperança de deter o ritual que irá invocar o Grande Cthulhu!",
+      "linkJN": "https://jovemnerd.com.br/nerdcast/rpg-call-of-cthulhu-4-o-ultimo-ritual/",
+      "linkSpotify": "https://open.spotify.com/episode/5lTaJiXYDUkovKy8fjBtO0",
+      "linkDeezer": "https://www.deezer.com/br/episode/267777342",
+      "linkApple": "https://podcasts.apple.com/br/podcast/nerdcast-757-rpg-call-of-cthulhu-4-o-%C3%BAltimo-ritual/id381816509?i=1000503543211",
+      "audio": "/audio/cthulhu4.mp3"
     }
   ],
   "cyberpunk": [
@@ -34,12 +60,38 @@
       "number": 1,
       "title": "O grande assalto",
       "duration": "2 horas e 36 minutos",
-      "desc": " Conheça o grupo de mercenários mais esculhambados de Delta City, enquanto planejam um grande assalto que poderá ser seu último serviço! No bom ou no mal sentido!",
+      "desc": "Conheça o grupo de mercenários mais esculhambados de Delta City, enquanto planejam um grande assalto que poderá ser seu último serviço! No bom ou no mal sentido!",
       "linkJN": "https://jovemnerd.com.br/nerdcast/nerdcast-395-rpg-cyberpunk-1-o-grande-assalto/",
       "linkSpotify": "https://open.spotify.com/episode/7l1coMueod4Pq2xMgNQ5Zk?si=KhA86-YsS5KJ1rUDV7jynw",
       "linkDeezer": "https://deezer.page.link/wg6yXfeCFRQEoLNv8",
-      "linkApple": "",
+      "linkApple": "https://podcasts.google.com/feed/aHR0cHM6Ly9qb3ZlbW5lcmQuY29tLmJyL2ZlZWQtbmVyZGNhc3Qv/episode/aHR0cHM6Ly9qb3ZlbW5lcmQuY29tLmJyL25lcmRjYXN0L25lcmRjYXN0LTM5NS1ycGctY3liZXJwdW5rLTEtby1ncmFuZGUtYXNzYWx0by8?sa=X&ved=0CAcQuIEEahcKEwio1_GY0t3vAhUAAAAAHQAAAAAQAg",
       "audio": "/audio/cyberpunk1.mp3"
+    },
+    {
+      "type": "cyberpunk",
+      "bg-image": "/cyberpunk-bg.jpg",
+      "number": 2,
+      "title": "O Passageiro do Futuro",
+      "duration": "2 horas e 9 minutos",
+      "desc": "Continue acompanhando as aventuras de grupo de mercenários mais suicida de 2119, enquanto eles tentam descobrir o valor do misterioso prêmio de seu assalto, em um ciberespaço sem limites de bom senso!",
+      "linkJN": "https://jovemnerd.com.br/nerdcast/nerdcast-446-rpg-cyberpunk-2-o-passageiro-do-futuro/",
+      "linkSpotify": "https://open.spotify.com/episode/2KgMeqs9EW8YykjEwc1GjR",
+      "linkDeezer": "https://deezer.page.link/t4L1GB28GukLgeJG7",
+      "linkApple": "https://podcasts.google.com/feed/aHR0cHM6Ly9qb3ZlbW5lcmQuY29tLmJyL2ZlZWQtbmVyZGNhc3Qv/episode/aHR0cHM6Ly9qb3ZlbW5lcmQuY29tLmJyL25lcmRjYXN0L25lcmRjYXN0LTQ0Ni1ycGctY3liZXJwdW5rLTItby1wYXNzYWdlaXJvLWRvLWZ1dHVyby8?sa=X&ved=2ahUKEwiYtYOjt8LtAhUGioQIHaUmAOoQkfYCegQIARAF",
+      "audio": "/audio/cyberpunk2.mp3"
+    },
+    {
+      "type": "cyberpunk",
+      "bg-image": "/cyberpunk-bg.jpg",
+      "number": 3,
+      "title": "Estrada para o inferno",
+      "duration": "3 horas e 25 minutos",
+      "desc": "Continue acompanhando as aventuras de grupo de mercenários mais sem noção de 2119. Androide, Durden, James Rexus, Oleg, Ozob e Dr. Silvana estão de volta…ou será que alguém morreu pelo caminho?",
+      "linkJN": "https://jovemnerd.com.br/nerdcast/nerdcast-498-rpg-cyberpunk-3-estrada-para-o-inferno/",
+      "linkSpotify": "https://open.spotify.com/episode/7F6WQ9YuPB37YCzLhhnwIU",
+      "linkDeezer": "https://deezer.page.link/UaP9ausXVJxGELx58",
+      "linkApple": "https://podcasts.google.com/feed/aHR0cHM6Ly9qb3ZlbW5lcmQuY29tLmJyL2ZlZWQtbmVyZGNhc3Qv/episode/aHR0cHM6Ly9qb3ZlbW5lcmQuY29tLmJyL25lcmRjYXN0L25lcmRjYXN0LTQ5OC1ycGctY3liZXJwdW5rLTMtZXN0cmFkYS1wYXJhLW8taW5mZXJuby8?sa=X&ved=0CAcQuIEEahcKEwio1_GY0t3vAhUAAAAAHQAAAAAQCQ",
+      "audio": "/audio/cyberpunk3.mp3"
     }
   ],
   "ghanor": [
@@ -55,6 +107,32 @@
       "linkDeezer": "https://deezer.page.link/hBWZ8ezc31cAzvQM7",
       "linkApple": "https://podcasts.google.com/feed/aHR0cHM6Ly9qb3ZlbW5lcmQuY29tLmJyL2ZlZWQtbmVyZGNhc3Qv/episode/aHR0cHM6Ly9qb3ZlbW5lcmQuY29tLmJyL25lcmRjYXN0L25lcmRjYXN0LTI1MS1lc3BlY2lhbC1ycGctby1icnV4by1hLXByaW5jZXNhLWUtby1kcmFnYW8v?sa=X&ved=2ahUKEwigh57ukpntAhUHazABHWl2CE4QkfYCegQIARAF",
       "audio": "/audio/ghanor1.mp3"
+    },
+    {
+      "type": "ghanor",
+      "bg-image": "/especial-bg.jpg",
+      "number": 2,
+      "title": "O Duque, a Rosa e o Beholder",
+      "duration": "2 horas e 15 minutos",
+      "desc": "Embarque nas desventuras do grupo mais desajustado do mundo do RPG, enquanto eles tentam enganar um rei e um desconfiado duque de que foram bem sucedidos ao resgatar a princesa Irulan. Onde será que essa loucura vai parar?",
+      "linkJN": "https://jovemnerd.com.br/nerdcast/nerdcast-291-especial-rpg-o-duque-a-rosa-e-o-beholder/",
+      "linkSpotify": "https://open.spotify.com/episode/0JzW2TodKoDLgYPutHHlnl",
+      "linkDeezer": "https://deezer.page.link/ktyP5z4V4RAUdtMt5",
+      "linkApple": "https://podcasts.google.com/feed/aHR0cHM6Ly9qb3ZlbW5lcmQuY29tLmJyL2ZlZWQtbmVyZGNhc3Qv/episode/aHR0cHM6Ly9qb3ZlbW5lcmQuY29tLmJyL25lcmRjYXN0L25lcmRjYXN0LTI5MS1lc3BlY2lhbC1ycGctby1kdXF1ZS1hLXJvc2EtZS1vLWJlaG9sZGVyLw?sa=X&ved=2ahUKEwjcg6GJwcDtAhXUBlkKHS4KAccQkfYCegQIARAF",
+      "audio": "/audio/ghanor2.mp3"
+    },
+    {
+      "type": "ghanor",
+      "bg-image": "/especial-bg.jpg",
+      "number": 3,
+      "title": "O Corvo, a Periguete e o Bucentauro",
+      "duration": "2 horas e 41 minutos",
+      "desc": " Descubra o destino do grupo mais galhofa do mundo do RPG, enquanto partem em uma misteriosa missão pelas areias do deserto em companhia dos mais desagradáveis e sensuais personagens!",
+      "linkJN": "https://jovemnerd.com.br/nerdcast/nerdcast-341-especial-rpg-o-corvo-a-periguete-e-o-bucentauro/",
+      "linkSpotify": "https://open.spotify.com/episode/5CopRhBPjRh2oyKnuxedVc",
+      "linkDeezer": "https://deezer.page.link/jG9hQGNDf4CM828D8",
+      "linkApple": "https://podcasts.google.com/feed/aHR0cHM6Ly9qb3ZlbW5lcmQuY29tLmJyL2ZlZWQtbmVyZGNhc3Qv/episode/aHR0cHM6Ly9qb3ZlbW5lcmQuY29tLmJyL25lcmRjYXN0L25lcmRjYXN0LTM0MS1lc3BlY2lhbC1ycGctby1jb3J2by1hLXBlcmlndWV0ZS1lLW8tYnVjZW50YXVyby8?sa=X&ved=0CAIQuIEEahcKEwj4o5-T1t3vAhUAAAAAHQAAAAAQAg",
+      "audio": "/audio/ghanor3.mp3"
     }
   ]
 }
