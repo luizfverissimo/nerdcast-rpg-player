@@ -13,11 +13,11 @@ export default function Home() {
         <title>NerdCast RPG Cthulhu</title>
         <link rel='icon' href='/favicon.ico' />
       </Head>
-      <Background type={data.cthulhu[0].type} />
+      <Background type={data.cthulhu[1].type} />
 
       <Navbar />
       <main className='w-full flex-1 max-w-7xl flex flex-col items-center justify-center z-0'>
-        <Content data={data.cthulhu[0]}/>
+        <Content data={data.cthulhu[1]}/>
       </main>
     </div>
   );

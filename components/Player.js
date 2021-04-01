@@ -5,21 +5,16 @@ import PlayerButtons from './PlayerButtons';
 
 let currentTimeTimeOut;
 
-function Player() {
+function Player({audioPath, data}) {
   const [isPlaying, setIsPlaying] = useState(false);
   const [nerdcast, setNerdcast] = useState(null);
   const [currentTimeFormatted, setCurrentTimeFormatted] = useState('00:00:00');
   const [currentTime, setCurrentTime] = useState(0);
-  const [durationFormatted, setDurationFormatted] = useState('00:00:00');
+  const [durationFormatted, setDurationFormatted] = useState('');
   const [duration, setDuration] = useState(0);
 
-  function PlayPause() {
-    setIsPlaying(!isPlaying);
-    isPlaying ? nerdcast.pause() : nerdcast.play();
-  }
-
   useEffect(() => {
-    const audio = new Audio('/audio/cthulhu1.mp3');
+    const audio = new Audio(audioPath);
     audio.preload = 'metadata';
     audio.onloadedmetadata = function () {
       const timeFormatted = new Date(1000 * Math.ceil(audio.duration))
@@ -43,16 +38,42 @@ function Player() {
     }
   }, [isPlaying, currentTime, currentTimeFormatted]);
 
+  function PlayPause() {
+    setIsPlaying(!isPlaying);
+    isPlaying ? nerdcast.pause() : nerdcast.play();
+  }
+
+  function selectTime(value) {
+    nerdcast.currentTime = value;
+  }
+
+  function nextTenSeconds() {
+    nerdcast.currentTime += 10;
+    setCurrentTime(nerdcast.currentTime);
+  }
+
+  function prevTenSeconds() {
+    nerdcast.currentTime -= 10;
+    setCurrentTime(nerdcast.currentTime);
+  }
+
   return (
     <div className='bg-theme-black bg-opacity-70 p-12 rounded-2xl blur'>
-      <PlayerButtons isPlaying={isPlaying} onClickPlay={PlayPause} />
+      <PlayerButtons
+        isPlaying={isPlaying}
+        onClickPlay={PlayPause}
+        onCLickNext10={nextTenSeconds}
+        onClickReturn10={prevTenSeconds}
+        type={data.type}
+      />
       <input
         className='mt-8 w-full rounded-lg overflow-hidden appearance-none bg-theme-gray h-3 w-128'
         type='range'
         max={duration}
         min={0}
         value={currentTime}
-        onChange={() => {}}
+        step={duration / 60}
+        onChange={(e) => selectTime(e.target.value)}
       ></input>
       <div className='w-full flex justify-between'>
         <span className='font-quattro text-sm text-theme-white'>
@@ -62,7 +83,12 @@ function Player() {
           {durationFormatted}
         </span>
       </div>
-      <PlatformsButtons spotify='#' deezer='#' apple='#' />
+      <PlatformsButtons
+        spotify={data.linkSpotify}
+        deezer={data.linkDeezer}
+        apple={data.linkApple}
+        type={data.type}
+      />
     </div>
   );
 }

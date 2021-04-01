@@ -5,13 +5,13 @@ function Navbar() {
     <nav className='w-full z-0 flex justify-center bg-gradient-to-b from-[rgba(0,0,0,0.7)] py-4'>
       <div className='w-full max-w-7xl flex justify-between'>
       <div className="font-oswald text-2xl text-theme-white">
-          <Link href='#'>
+          <Link href='/cthulhu-ep1'>
             <a className="mr-12">NerdCast <span className="text-theme-green">Cthulhu</span></a>
           </Link>
-          <Link href='#'>
+          <Link href='/cyberpunk-ep1'>
             <a className="mr-12">NerdCast <span className="text-theme-pink">Cyberpunk</span></a>
           </Link>
-          <Link href='#'>
+          <Link href='/ghanor-ep1'>
             <a className="">NerdCast <span className="text-theme-orange">Crônicas de Ghanor</span></a>
           </Link>
       </div>

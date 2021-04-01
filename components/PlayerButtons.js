@@ -2,13 +2,20 @@ function PlayerButtons({
   onClickReturn10,
   onCLickNext10,
   onClickPlay,
-  isPlaying
+  isPlaying,
+  type
 }) {
   return (
     <div>
       <div className='flex justify-center items-center'>
         <svg
-          className='fill-current text-theme-green transition-all cursor-pointer hover:text-theme-white'
+          className={`fill-current ${
+            type === 'cthulhu'
+              ? 'text-theme-green'
+              : type === 'cyberpunk'
+              ? 'text-theme-pink'
+              : 'text-theme-orange'
+          } transition-all cursor-pointer hover:text-theme-white transform hover:-translate-y-1`}
           onClick={onClickReturn10}
           width='41'
           height='39'
@@ -19,7 +26,13 @@ function PlayerButtons({
           <path d='M4.8 8.19565V3.12505C4.8 2.58799 4.58665 2.07292 4.20689 1.69316C3.82713 1.3134 3.31206 1.10005 2.775 1.10005C2.23794 1.10005 1.72287 1.3134 1.34311 1.69316C0.963347 2.07292 0.75 2.58799 0.75 3.12505V12.575C0.75 13.6928 1.6572 14.6 2.775 14.6H13.575C14.1121 14.6 14.6271 14.3867 15.0069 14.0069C15.3867 13.6272 15.6 13.1121 15.6 12.575C15.6 12.038 15.3867 11.5229 15.0069 11.1432C14.6271 10.7634 14.1121 10.55 13.575 10.55H8.1102C11.334 6.79705 15.9483 4.47505 21 4.47505C27.48 4.47505 33.231 8.29555 36.2685 14.0411C36.6573 14.7782 37.4025 15.275 38.2368 15.275C39.6867 15.275 40.6938 13.8359 40.0404 12.5399C36.4197 5.36335 29.3052 0.425049 21 0.425049C14.5038 0.425049 8.7366 3.44635 4.8 8.19565ZM16.275 22.025C16.2752 21.6377 16.1644 21.2584 15.9556 20.9321C15.7468 20.6059 15.4488 20.3464 15.0969 20.1844C14.745 20.0224 14.3541 19.9647 13.9705 20.0181C13.5868 20.0716 13.2265 20.234 12.9324 20.4861L8.2074 24.5361C8.0053 24.7091 7.83925 24.9202 7.71875 25.1574C7.59824 25.3946 7.52564 25.6532 7.50508 25.9185C7.48452 26.1838 7.51641 26.4505 7.59893 26.7034C7.68144 26.9563 7.81297 27.1905 7.986 27.3926C8.33545 27.8008 8.83273 28.0535 9.36845 28.095C9.63371 28.1155 9.90042 28.0836 10.1534 28.0011C10.4063 27.9186 10.6405 27.7871 10.8426 27.614L12.225 26.426V36.875C12.225 37.4121 12.4383 37.9272 12.8181 38.3069C13.1979 38.6867 13.7129 38.9 14.25 38.9C14.7871 38.9 15.3021 38.6867 15.6819 38.3069C16.0617 37.9272 16.275 37.4121 16.275 36.875V22.025ZM34.5 29.45C34.5 34.6691 32.8125 38.9 27.75 38.9C22.6875 38.9 21 34.6691 21 29.45C21 24.2309 22.6875 20 27.75 20C32.8125 20 34.5 24.2309 34.5 29.45ZM30.45 29.45C30.45 27.155 30.0585 25.6728 29.5752 24.8925C29.4369 24.6439 29.2346 24.437 28.9893 24.293C28.803 24.1904 28.4385 24.05 27.75 24.05C27.0615 24.05 26.697 24.1904 26.508 24.293C26.2633 24.4381 26.062 24.646 25.9248 24.8951C25.4415 25.6727 25.05 27.155 25.05 29.45C25.05 31.745 25.4415 33.2273 25.9248 34.0076C26.0631 34.2562 26.2654 34.4631 26.5107 34.607C26.697 34.7096 27.0615 34.85 27.75 34.85C28.4385 34.85 28.803 34.7096 28.992 34.607C29.2367 34.462 29.438 34.2541 29.5752 34.005C30.0585 33.2274 30.45 31.745 30.45 29.45Z' />
         </svg>
         <div
-          className='bg-theme-green w-20 h-20 flex justify-center items-center rounded-full mx-6 transition-all cursor-pointer hover:bg-theme-white'
+          className={`${
+            type === 'cthulhu'
+              ? 'bg-theme-green'
+              : type === 'cyberpunk'
+              ? 'bg-theme-pink'
+              : 'bg-theme-orange'
+          } w-20 h-20 flex justify-center items-center rounded-full mx-6 transition-all cursor-pointer hover:bg-theme-white transform hover:-translate-y-1`}
           onClick={onClickPlay}
         >
           {isPlaying ? (
@@ -56,7 +69,13 @@ function PlayerButtons({
         </div>
 
         <svg
-          className='fill-current text-theme-green transition-all cursor-pointer hover:text-theme-white'
+          className={`fill-current ${
+            type === 'cthulhu'
+              ? 'text-theme-green'
+              : type === 'cyberpunk'
+              ? 'text-theme-pink'
+              : 'text-theme-orange'
+          } transition-all cursor-pointer hover:text-theme-white transform hover:-translate-y-1`}
           onClick={onCLickNext10}
           width='40'
           height='39'

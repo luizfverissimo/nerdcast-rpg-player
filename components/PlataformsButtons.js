@@ -1,9 +1,15 @@
-function PlatformsButtons({ spotify, deezer, apple }) {
+function PlatformsButtons({ spotify, deezer, apple, type }) {
   return (
     <div className='mt-8 w-full flex justify-center items-center'>
       <a rel='external' href={spotify} target='_blank' rel='noopener'>
         <svg
-          className='mr-6 fill-current transition-all text-theme-green hover:text-theme-white'
+          className={`mr-6 fill-current transition-all ${
+            type === 'cthulhu'
+              ? 'text-theme-green'
+              : type === 'cyberpunk'
+              ? 'text-theme-pink'
+              : 'text-theme-orange'
+          } hover:text-theme-white transform hover:-translate-y-1`}
           width='32'
           height='32'
           viewBox='0 0 32 32'
@@ -15,7 +21,13 @@ function PlatformsButtons({ spotify, deezer, apple }) {
       </a>
       <a rel='external' href={deezer} target='_blank' rel='noopener'>
         <svg
-          className='mr-6 fill-current text-theme-green hover:text-theme-white'
+          className={`mr-6 fill-current  transition-all ${
+            type === 'cthulhu'
+              ? 'text-theme-green'
+              : type === 'cyberpunk'
+              ? 'text-theme-pink'
+              : 'text-theme-orange'
+          } hover:text-theme-white transform hover:-translate-y-1`}
           width='32'
           height='29'
           viewBox='0 0 32 29'
@@ -27,7 +39,13 @@ function PlatformsButtons({ spotify, deezer, apple }) {
       </a>
       <a rel='external' href={apple} target='_blank' rel='noopener'>
         <svg
-          className='fill-current text-theme-green hover:text-theme-white'
+          className={`fill-current transition-all ${
+            type === 'cthulhu'
+              ? 'text-theme-green'
+              : type === 'cyberpunk'
+              ? 'text-theme-pink'
+              : 'text-theme-orange'
+          } hover:text-theme-white transform hover:-translate-y-1`}
           width='32'
           height='38'
           viewBox='0 0 32 38'

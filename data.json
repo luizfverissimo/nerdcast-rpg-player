@@ -1,0 +1,60 @@
+{
+  "cthulhu": [
+    {
+      "type": "cthulhu",
+      "bg-image": "/cthulhu-bg.jpg",
+      "number": 1,
+      "title": "O mistério de William Faraday",
+      "duration": "2 horas e 41 minutos",
+      "desc": "Estamos em 1936 e uma confraria de amigos, veteranos da Primeira Guerra Mundial, se reúne mais uma vez só que dessa vez a confraternização tomou rumos inesperados e muito sinistros. Atreva-se a ouvir esse programa para descobrir o que aconteceu com eles!",
+      "linkJN": "https://jovemnerd.com.br/nerdcast/rpg-call-of-cthulhu-1-o-misterio-de-william-faraday/",
+      "linkSpotify": "https://open.spotify.com/episode/0h3NxRAulnJltVw8xynqhg?si=nMLM2sBAQ62EFclq9vTBbg",
+      "linkDeezer": "https://deezer.page.link/vKNoFyHxYjCTVXit5",
+      "linkApple": "https://podcasts.apple.com/us/podcast/nerdcast-549-rpg-call-cthulhu-1-o-mist%C3%A9rio-william/id381816509?i=1000408799516",
+      "audio": "/audio/cthulhu1.mp3"
+    },
+    {
+      "type": "cthulhu",
+      "bg-image": "/cthulhu-bg.jpg",
+      "number": 2,
+      "title": "O horror do Necronomicon",
+      "duration": "2 horas e 58 minutos",
+      "desc": "A confraria de investigadores está prestes a embarcar em uma viagem tenebrosa ao coração do regime nazista, à procura do enigmático livro Necronomicon. Quem será que os alcançará primeiro? Seus inimigos ou a INSANIDADE?",
+      "linkJN": "https://jovemnerd.com.br/nerdcast/rpg-call-of-cthulhu-2-o-horror-do-necronomicon/",
+      "linkSpotify": "https://open.spotify.com/episode/1gZdBHT9ga1s76DAFrB1Eu?si=ETEyMmtMQBih9Z3Z9h4lVQ",
+      "linkDeezer": "https://deezer.page.link/14Tmq1KAQRyhFLvM7",
+      "linkApple": "https://podcasts.apple.com/sg/podcast/nerdcast-602-rpg-call-of-cthulhu-2-o-horror-do-necronomicon/id381816509?i=1000408799932",
+      "audio": "/audio/cthulhu2.mp3"
+    }
+  ],
+  "cyberpunk": [
+    {
+      "type": "cyberpunk",
+      "bg-image": "/cyberpunk-bg.jpg",
+      "number": 1,
+      "title": "O grande assalto",
+      "duration": "2 horas e 36 minutos",
+      "desc": " Conheça o grupo de mercenários mais esculhambados de Delta City, enquanto planejam um grande assalto que poderá ser seu último serviço! No bom ou no mal sentido!",
+      "linkJN": "https://jovemnerd.com.br/nerdcast/nerdcast-395-rpg-cyberpunk-1-o-grande-assalto/",
+      "linkSpotify": "https://open.spotify.com/episode/7l1coMueod4Pq2xMgNQ5Zk?si=KhA86-YsS5KJ1rUDV7jynw",
+      "linkDeezer": "https://deezer.page.link/wg6yXfeCFRQEoLNv8",
+      "linkApple": "",
+      "audio": "/audio/cyberpunk1.mp3"
+    }
+  ],
+  "ghanor": [
+    {
+      "type": "ghanor",
+      "bg-image": "/especial-bg.jpg",
+      "number": 1,
+      "title": "O Bruxo, a Princesa e o Dragão",
+      "duration": "1 hora e 39 minutos",
+      "desc": "Embarque nos maiores clichês do gênero, enquanto este grupo de aventureiros politicamente incorretos desbravam tavernas, florestas e calabouços para resgatar uma virgem princesa! Ou será sua fortuna?",
+      "linkJN": "https://jovemnerd.com.br/nerdcast/nerdcast-251-especial-rpg-o-bruxo-a-princesa-e-o-dragao/",
+      "linkSpotify": "https://open.spotify.com/episode/0aSt6YvIFz6dZ9FDtk1TfU",
+      "linkDeezer": "https://deezer.page.link/hBWZ8ezc31cAzvQM7",
+      "linkApple": "https://podcasts.google.com/feed/aHR0cHM6Ly9qb3ZlbW5lcmQuY29tLmJyL2ZlZWQtbmVyZGNhc3Qv/episode/aHR0cHM6Ly9qb3ZlbW5lcmQuY29tLmJyL25lcmRjYXN0L25lcmRjYXN0LTI1MS1lc3BlY2lhbC1ycGctby1icnV4by1hLXByaW5jZXNhLWUtby1kcmFnYW8v?sa=X&ved=2ahUKEwigh57ukpntAhUHazABHWl2CE4QkfYCegQIARAF",
+      "audio": "/audio/ghanor1.mp3"
+    }
+  ]
+}

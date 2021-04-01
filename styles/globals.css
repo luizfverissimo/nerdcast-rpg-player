@@ -12,13 +12,13 @@ body {
 }
 
 input[type="range"]::-webkit-slider-thumb {
-  width: 20px;
+  width: 10px;
   -webkit-appearance: none;
-appearance: none;
+  appearance: none;
   height: 20px;
   cursor: pointer;
   background: #EDEDED;
-  box-shadow: -405px 0 0 400px #2EE38D;
+  box-shadow: -405px 0 0 400px #262626;
   border-radius: 50%;
   
 }
