@@ -1,60 +1,65 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 
 import PlatformsButtons from './PlataformsButtons';
 import PlayerButtons from './PlayerButtons';
 
 let currentTimeTimeOut;
 
-function Player({audioPath, data}) {
+function Player({ audioPath, data }) {
   const [isPlaying, setIsPlaying] = useState(false);
-  const [nerdcast, setNerdcast] = useState(null);
   const [currentTimeFormatted, setCurrentTimeFormatted] = useState('00:00:00');
   const [currentTime, setCurrentTime] = useState(0);
   const [durationFormatted, setDurationFormatted] = useState('');
   const [duration, setDuration] = useState(0);
 
+  const nerdcast = useRef(null);
+
   useEffect(() => {
-    const audio = new Audio(audioPath);
-    audio.preload = 'metadata';
-    audio.onloadedmetadata = function () {
-      const timeFormatted = new Date(1000 * Math.ceil(audio.duration))
+    nerdcast.current.preload = 'metadata';
+    nerdcast.current.onloadedmetadata = function () {
+      const timeFormatted = new Date(
+        1000 * Math.ceil(nerdcast.current.duration)
+      )
         .toISOString()
         .substr(11, 8);
       setDurationFormatted(timeFormatted);
-      setDuration(Math.ceil(audio.duration));
+      setDuration(Math.ceil(nerdcast.current.duration));
     };
-    setNerdcast(audio);
   }, []);
 
   useEffect(() => {
     if (isPlaying) {
       currentTimeTimeOut = setTimeout(() => {
-        const timeFormatted = new Date(1000 * Math.ceil(nerdcast.currentTime))
-          .toISOString()
-          .substr(11, 8);
-        setCurrentTimeFormatted(timeFormatted);
-        setCurrentTime(nerdcast.currentTime);
+        if(nerdcast.current) {
+          const timeFormatted = new Date(
+            1000 * Math.ceil(nerdcast.current.currentTime)
+          )
+            .toISOString()
+            .substr(11, 8);
+          setCurrentTimeFormatted(timeFormatted);
+          setCurrentTime(nerdcast.currentTime);
+        }
       }, 1000);
     }
   }, [isPlaying, currentTime, currentTimeFormatted]);
 
   function PlayPause() {
     setIsPlaying(!isPlaying);
-    isPlaying ? nerdcast.pause() : nerdcast.play();
+    isPlaying ? nerdcast.current.pause() : nerdcast.current.play();
   }
 
   function selectTime(value) {
-    nerdcast.currentTime = value;
+    nerdcast.current.currentTime = value;
   }
 
   function nextTenSeconds() {
-    nerdcast.currentTime += 10;
-    setCurrentTime(nerdcast.currentTime);
+    nerdcast.current.currentTime += 10;
+    setCurrentTime(nerdcast.current.currentTime);
   }
 
   function prevTenSeconds() {
-    nerdcast.currentTime -= 10;
-    setCurrentTime(nerdcast.currentTime);
+    nerdcast.current.currentTime -= 10;
+    setCurrentTime(nerdcast.current.currentTime);
   }
 
   return (
@@ -66,6 +71,7 @@ function Player({audioPath, data}) {
         onClickReturn10={prevTenSeconds}
         type={data.type}
       />
+      <audio ref={nerdcast} src={data.audio} />
       <input
         className='mt-8 w-full rounded-lg overflow-hidden appearance-none bg-theme-gray h-3 w-128'
         type='range'

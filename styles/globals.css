@@ -26,3 +26,14 @@ input[type="range"]::-webkit-slider-thumb {
 .blur {
   backdrop-filter: blur(2px);
 }
+
+.grayscale {
+  -webkit-transition : -webkit-filter 500ms linear;
+  -webkit-filter: brightness(50%) grayscale(100%);
+  /* filter: grayscale(100); */
+
+}
+
+.grayscale:hover {
+  -webkit-filter: brightness(100%) grayscale(0%);
+}

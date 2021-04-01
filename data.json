@@ -11,7 +11,7 @@
       "linkSpotify": "https://open.spotify.com/episode/0h3NxRAulnJltVw8xynqhg?si=nMLM2sBAQ62EFclq9vTBbg",
       "linkDeezer": "https://deezer.page.link/vKNoFyHxYjCTVXit5",
       "linkApple": "https://podcasts.apple.com/us/podcast/nerdcast-549-rpg-call-cthulhu-1-o-mist%C3%A9rio-william/id381816509?i=1000408799516",
-      "audio": "/audio/cthulhu1.mp3"
+      "audio": "https://nerdcast.jovemnerd.com.br/nerdcast_549_RPG_cthulhu_1.mp3"
     },
     {
       "type": "cthulhu",
@@ -24,7 +24,7 @@
       "linkSpotify": "https://open.spotify.com/episode/1gZdBHT9ga1s76DAFrB1Eu?si=ETEyMmtMQBih9Z3Z9h4lVQ",
       "linkDeezer": "https://deezer.page.link/14Tmq1KAQRyhFLvM7",
       "linkApple": "https://podcasts.apple.com/sg/podcast/nerdcast-602-rpg-call-of-cthulhu-2-o-horror-do-necronomicon/id381816509?i=1000408799932",
-      "audio": "/audio/cthulhu2.mp3"
+      "audio": "https://nerdcast.jovemnerd.com.br/nerdcast_602_RPG_cthulhu_2.mp3"
     },
     {
       "type": "cthulhu",
@@ -37,7 +37,7 @@
       "linkSpotify": "https://open.spotify.com/episode/3W5HxgUNlBT9PuFDsW6ON4",
       "linkDeezer": "https://deezer.page.link/hLU1omEjeNzn9CRv9",
       "linkApple": "https://podcasts.apple.com/br/podcast/nerdcast-666-rpg-call-of-cthulhu-3-o-despertar-dos-profundos/id381816509?i=1000433737676",
-      "audio": "/audio/cthulhu3.mp3"
+      "audio": "https://nerdcast.jovemnerd.com.br/nerdcast_666_RPG_cthulhu_3_gu6u9z.mp3"
     },
     {
       "type": "cthulhu",
@@ -50,7 +50,7 @@
       "linkSpotify": "https://open.spotify.com/episode/5lTaJiXYDUkovKy8fjBtO0",
       "linkDeezer": "https://www.deezer.com/br/episode/267777342",
       "linkApple": "https://podcasts.apple.com/br/podcast/nerdcast-757-rpg-call-of-cthulhu-4-o-%C3%BAltimo-ritual/id381816509?i=1000503543211",
-      "audio": "/audio/cthulhu4.mp3"
+      "audio": "https://nerdcast.jovemnerd.com.br/nerdcast_757_RPG_cthulhu_4.mp3"
     }
   ],
   "cyberpunk": [
@@ -65,7 +65,7 @@
       "linkSpotify": "https://open.spotify.com/episode/7l1coMueod4Pq2xMgNQ5Zk?si=KhA86-YsS5KJ1rUDV7jynw",
       "linkDeezer": "https://deezer.page.link/wg6yXfeCFRQEoLNv8",
       "linkApple": "https://podcasts.google.com/feed/aHR0cHM6Ly9qb3ZlbW5lcmQuY29tLmJyL2ZlZWQtbmVyZGNhc3Qv/episode/aHR0cHM6Ly9qb3ZlbW5lcmQuY29tLmJyL25lcmRjYXN0L25lcmRjYXN0LTM5NS1ycGctY3liZXJwdW5rLTEtby1ncmFuZGUtYXNzYWx0by8?sa=X&ved=0CAcQuIEEahcKEwio1_GY0t3vAhUAAAAAHQAAAAAQAg",
-      "audio": "/audio/cyberpunk1.mp3"
+      "audio": "https://nerdcast.jovemnerd.com.br/nerdcast_395_RPG_cyberpunk_1.mp3"
     },
     {
       "type": "cyberpunk",
@@ -78,7 +78,7 @@
       "linkSpotify": "https://open.spotify.com/episode/2KgMeqs9EW8YykjEwc1GjR",
       "linkDeezer": "https://deezer.page.link/t4L1GB28GukLgeJG7",
       "linkApple": "https://podcasts.google.com/feed/aHR0cHM6Ly9qb3ZlbW5lcmQuY29tLmJyL2ZlZWQtbmVyZGNhc3Qv/episode/aHR0cHM6Ly9qb3ZlbW5lcmQuY29tLmJyL25lcmRjYXN0L25lcmRjYXN0LTQ0Ni1ycGctY3liZXJwdW5rLTItby1wYXNzYWdlaXJvLWRvLWZ1dHVyby8?sa=X&ved=2ahUKEwiYtYOjt8LtAhUGioQIHaUmAOoQkfYCegQIARAF",
-      "audio": "/audio/cyberpunk2.mp3"
+      "audio": "https://nerdcast.jovemnerd.com.br/nerdcast_446_RPG_cyberpunk_2.mp3"
     },
     {
       "type": "cyberpunk",
@@ -91,7 +91,7 @@
       "linkSpotify": "https://open.spotify.com/episode/7F6WQ9YuPB37YCzLhhnwIU",
       "linkDeezer": "https://deezer.page.link/UaP9ausXVJxGELx58",
       "linkApple": "https://podcasts.google.com/feed/aHR0cHM6Ly9qb3ZlbW5lcmQuY29tLmJyL2ZlZWQtbmVyZGNhc3Qv/episode/aHR0cHM6Ly9qb3ZlbW5lcmQuY29tLmJyL25lcmRjYXN0L25lcmRjYXN0LTQ5OC1ycGctY3liZXJwdW5rLTMtZXN0cmFkYS1wYXJhLW8taW5mZXJuby8?sa=X&ved=0CAcQuIEEahcKEwio1_GY0t3vAhUAAAAAHQAAAAAQCQ",
-      "audio": "/audio/cyberpunk3.mp3"
+      "audio": "https://nerdcast.jovemnerd.com.br/nerdcast_498_RPG_cyberpunk_3.mp3"
     }
   ],
   "ghanor": [
@@ -106,7 +106,7 @@
       "linkSpotify": "https://open.spotify.com/episode/0aSt6YvIFz6dZ9FDtk1TfU",
       "linkDeezer": "https://deezer.page.link/hBWZ8ezc31cAzvQM7",
       "linkApple": "https://podcasts.google.com/feed/aHR0cHM6Ly9qb3ZlbW5lcmQuY29tLmJyL2ZlZWQtbmVyZGNhc3Qv/episode/aHR0cHM6Ly9qb3ZlbW5lcmQuY29tLmJyL25lcmRjYXN0L25lcmRjYXN0LTI1MS1lc3BlY2lhbC1ycGctby1icnV4by1hLXByaW5jZXNhLWUtby1kcmFnYW8v?sa=X&ved=2ahUKEwigh57ukpntAhUHazABHWl2CE4QkfYCegQIARAF",
-      "audio": "/audio/ghanor1.mp3"
+      "audio": "https://nerdcast.jovemnerd.com.br/nerdcast_251_especial_rpg.mp3"
     },
     {
       "type": "ghanor",
@@ -119,7 +119,7 @@
       "linkSpotify": "https://open.spotify.com/episode/0JzW2TodKoDLgYPutHHlnl",
       "linkDeezer": "https://deezer.page.link/ktyP5z4V4RAUdtMt5",
       "linkApple": "https://podcasts.google.com/feed/aHR0cHM6Ly9qb3ZlbW5lcmQuY29tLmJyL2ZlZWQtbmVyZGNhc3Qv/episode/aHR0cHM6Ly9qb3ZlbW5lcmQuY29tLmJyL25lcmRjYXN0L25lcmRjYXN0LTI5MS1lc3BlY2lhbC1ycGctby1kdXF1ZS1hLXJvc2EtZS1vLWJlaG9sZGVyLw?sa=X&ved=2ahUKEwjcg6GJwcDtAhXUBlkKHS4KAccQkfYCegQIARAF",
-      "audio": "/audio/ghanor2.mp3"
+      "audio": "https://nerdcast.jovemnerd.com.br/nerdcast_291_especial_rpg_2.mp3"
     },
     {
       "type": "ghanor",
@@ -132,7 +132,7 @@
       "linkSpotify": "https://open.spotify.com/episode/5CopRhBPjRh2oyKnuxedVc",
       "linkDeezer": "https://deezer.page.link/jG9hQGNDf4CM828D8",
       "linkApple": "https://podcasts.google.com/feed/aHR0cHM6Ly9qb3ZlbW5lcmQuY29tLmJyL2ZlZWQtbmVyZGNhc3Qv/episode/aHR0cHM6Ly9qb3ZlbW5lcmQuY29tLmJyL25lcmRjYXN0L25lcmRjYXN0LTM0MS1lc3BlY2lhbC1ycGctby1jb3J2by1hLXBlcmlndWV0ZS1lLW8tYnVjZW50YXVyby8?sa=X&ved=0CAIQuIEEahcKEwj4o5-T1t3vAhUAAAAAHQAAAAAQAg",
-      "audio": "/audio/ghanor3.mp3"
+      "audio": "https://nerdcast.jovemnerd.com.br/nerdcast_341_especial_rpg_3.mp3"
     }
   ]
 }

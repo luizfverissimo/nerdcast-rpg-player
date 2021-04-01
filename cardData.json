@@ -1,0 +1,26 @@
+{
+  "cthulhu": {
+    "episodes": "4",
+    "colorText": "text-theme-green",
+    "colorBg": "bg-theme-green",
+    "img": "/cthulhu-bg.jpg",
+    "title": "Cthulhu",
+    "link": "/cthulhu-ep1"
+  },
+  "cyberpunk": {
+    "episodes": "3",
+    "colorText": "text-theme-pink",
+    "colorBg": "bg-theme-pink",
+    "img": "/cyberpunk-bg.jpg",
+    "title": "Cyberpunk",
+    "link": "/cyberpunk-ep1"
+  },
+  "ghanor": {
+    "episodes": "3",
+    "colorText": "text-theme-orange",
+    "colorBg": "bg-theme-orange",
+    "img": "/especial-bg.jpg",
+    "title": "Crônicas de ghanor",
+    "link": "/ghanor-ep1"
+  }
+}
