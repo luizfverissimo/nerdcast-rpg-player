@@ -6,11 +6,11 @@ import Player from './Player';
 function Content({ data }) {
   return (
     <motion.section
-      initial={{ opacity: 0, scale: .9}}
+      initial={{ opacity: 0, scale: 0.9 }}
       animate={{
         opacity: 1,
         scale: 1,
-        transition: { duration: .8 }
+        transition: { duration: 0.8 }
       }}
       className='w-full flex flex-col justify-between p-6 xl:p-0 md:flex-row'
     >
@@ -88,6 +88,19 @@ function Content({ data }) {
             .
           </p>
           <EpisodesNavigator epNumber={data.number} type={data.type} />
+          <p className="font-oswald text-[#7A7A7A] mt-10">
+            Esse podcast foi criado pela equipe{' '}
+            <a
+            className="underline"
+              rel='external'
+              href='https://www.jovemnerd.com'
+              target='_blank'
+              rel='noopener'
+            >
+              Jovem Nerd
+            </a>
+            , todos os direitos são reservados à eles.
+          </p>
         </div>
       </div>
 

@@ -32,19 +32,32 @@ function Player({ audioPath, data }) {
     if (isPlaying) {
       currentTimeTimeOut = setTimeout(() => {
         if (nerdcast.current) {
+          if(durationFormatted === currentTimeFormatted) {
+            nerdcastEnded()
+            return
+          }
+
           const timeFormatted = new Date(
             1000 * Math.ceil(nerdcast.current.currentTime)
           )
             .toISOString()
             .substr(11, 8);
           setCurrentTimeFormatted(timeFormatted);
-          setCurrentTime(nerdcast.currentTime);
+          setCurrentTime(nerdcast.current.currentTime);
         }
       }, 1000);
     }
   }, [isPlaying, currentTime, currentTimeFormatted]);
 
-  function PlayPause() {
+  function nerdcastEnded() {
+    setIsPlaying(false)
+    nerdcast.current.pause()
+    nerdcast.current.currentTime = 0
+    setCurrentTime(nerdcast.current.currentTime)
+    setCurrentTimeFormatted('00:00:00')
+  }
+
+  function playPause() {
     setIsPlaying(!isPlaying);
     isPlaying ? nerdcast.current.pause() : nerdcast.current.play();
   }
@@ -65,17 +78,17 @@ function Player({ audioPath, data }) {
 
   return (
     <motion.div
-      initial={{ opacity: 0, scale: .9}}
+      initial={{ opacity: 0, scale: 0.9 }}
       animate={{
         opacity: 1,
         scale: 1,
-        transition: { duration: .8, delay: 0.4 }
+        transition: { duration: 0.8, delay: 0.4 }
       }}
       className='bg-theme-black bg-opacity-70 p-12 rounded-2xl blur'
     >
       <PlayerButtons
         isPlaying={isPlaying}
-        onClickPlay={PlayPause}
+        onClickPlay={playPause}
         onCLickNext10={nextTenSeconds}
         onClickReturn10={prevTenSeconds}
         type={data.type}
