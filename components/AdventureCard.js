@@ -1,14 +1,17 @@
 import Link from 'next/link';
+import { motion } from 'framer-motion';
 
 function AdventureCard({ data }) {
   return (
-    <div
-      className='bg-[#131215] rounded-2xl w-[21.25rem] h-[37.5rem] overflow-hidden flex flex-col items-center grayscale'
+    <motion.div
+      initial={{ opacity: 0, scale: .8 }}
+      animate={{ opacity: 1, scale: 1, transition: { duration: 1, delay: data.delayAnimation }}}
+      className='bg-[#131215] rounded-2xl w-[21.25rem] h-[37.5rem] mt-8 overflow-hidden flex flex-col items-center grayscale lg:mt-0'
     >
       <Link href={data.link}>
         <a>
           <img
-            className='w-full h-[413px] object-cover'
+            className='w-full h-[25.75rem] object-cover'
             src={data.img}
             alt='card image'
           />
@@ -29,7 +32,7 @@ function AdventureCard({ data }) {
           Escute essa aventura!
         </a>
       </Link>
-    </div>
+    </motion.div>
   );
 }
 

@@ -15,8 +15,9 @@ export default function Home() {
       <BackgroundHome />
 
       <Navbar />
-      <main className='w-full flex-1 max-w-7xl flex flex-col items-center justify-center z-0'>
-        <section className='w-full flex justify-between'>
+      <main className='w-full flex-1 max-w-7xl flex flex-col items-center justify-center z-0 p-6 xl:p-0'>
+        <h1 className="font-oswald text-5xl text-theme-white mb-8 text-center">Escolha sua aventura!</h1>
+        <section className='w-full flex flex-col justify-between items-center lg:flex-row'>
           <AdventureCard data={cardData.cyberpunk} />
           <AdventureCard data={cardData.cthulhu} />
           <AdventureCard data={cardData.ghanor} />

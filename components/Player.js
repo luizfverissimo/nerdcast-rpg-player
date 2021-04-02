@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
+import { motion } from 'framer-motion';
 
 import PlatformsButtons from './PlataformsButtons';
 import PlayerButtons from './PlayerButtons';
@@ -30,7 +31,7 @@ function Player({ audioPath, data }) {
   useEffect(() => {
     if (isPlaying) {
       currentTimeTimeOut = setTimeout(() => {
-        if(nerdcast.current) {
+        if (nerdcast.current) {
           const timeFormatted = new Date(
             1000 * Math.ceil(nerdcast.current.currentTime)
           )
@@ -63,7 +64,15 @@ function Player({ audioPath, data }) {
   }
 
   return (
-    <div className='bg-theme-black bg-opacity-70 p-12 rounded-2xl blur'>
+    <motion.div
+      initial={{ opacity: 0, scale: .9}}
+      animate={{
+        opacity: 1,
+        scale: 1,
+        transition: { duration: .8, delay: 0.4 }
+      }}
+      className='bg-theme-black bg-opacity-70 p-12 rounded-2xl blur'
+    >
       <PlayerButtons
         isPlaying={isPlaying}
         onClickPlay={PlayPause}
@@ -95,7 +104,7 @@ function Player({ audioPath, data }) {
         apple={data.linkApple}
         type={data.type}
       />
-    </div>
+    </motion.div>
   );
 }
 

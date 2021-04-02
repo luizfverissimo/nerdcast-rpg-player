@@ -2,28 +2,30 @@ import Link from 'next/link';
 
 function Navbar() {
   return (
-    <nav className='w-full z-0 flex justify-center bg-gradient-to-b from-[rgba(0,0,0,0.7)] py-4'>
+    <nav className='w-full z-0 flex justify-center bg-gradient-to-b from-[rgba(0,0,0,0.7)] py-4 px-6 xl:px-0'>
       <div className='w-full max-w-7xl flex justify-between'>
-        <div className='font-oswald text-xl text-theme-white'>
+        <div className='font-oswald text-xl text-theme-white flex'>
           <Link href='/'>
             <a className='mr-12'>&larr;</a>
           </Link>
-          <Link href='/cthulhu-ep1'>
-            <a className='mr-12'>
-              NerdCast <span className='text-theme-green'>Cthulhu</span>
-            </a>
-          </Link>
-          <Link href='/cyberpunk-ep1'>
-            <a className='mr-12'>
-              NerdCast <span className='text-theme-pink'>Cyberpunk</span>
-            </a>
-          </Link>
-          <Link href='/ghanor-ep1'>
-            <a className=''>
-              NerdCast{' '}
-              <span className='text-theme-orange'>Crônicas de Ghanor</span>
-            </a>
-          </Link>
+          <div className="hidden lg:flex">
+            <Link href='/cthulhu-ep1'>
+              <a className='mr-12'>
+                NerdCast <span className='text-theme-green'>Cthulhu</span>
+              </a>
+            </Link>
+            <Link href='/cyberpunk-ep1'>
+              <a className='mr-12'>
+                NerdCast <span className='text-theme-pink'>Cyberpunk</span>
+              </a>
+            </Link>
+            <Link href='/ghanor-ep1'>
+              <a className=''>
+                NerdCast{' '}
+                <span className='text-theme-orange'>Crônicas de Ghanor</span>
+              </a>
+            </Link>
+          </div>
         </div>
         <div>
           <div className='flex justify-center items-center'>

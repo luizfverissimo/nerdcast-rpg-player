@@ -5,7 +5,8 @@
     "colorBg": "bg-theme-green",
     "img": "/cthulhu-bg.jpg",
     "title": "Cthulhu",
-    "link": "/cthulhu-ep1"
+    "link": "/cthulhu-ep1",
+    "delayAnimation": 0.5
   },
   "cyberpunk": {
     "episodes": "3",
@@ -13,14 +14,16 @@
     "colorBg": "bg-theme-pink",
     "img": "/cyberpunk-bg.jpg",
     "title": "Cyberpunk",
-    "link": "/cyberpunk-ep1"
+    "link": "/cyberpunk-ep1",
+    "delayAnimation": 0
   },
   "ghanor": {
     "episodes": "3",
     "colorText": "text-theme-orange",
     "colorBg": "bg-theme-orange",
     "img": "/especial-bg.jpg",
-    "title": "Crônicas de ghanor",
-    "link": "/ghanor-ep1"
+    "title": "Crônicas de Ghanor",
+    "link": "/ghanor-ep1",
+    "delayAnimation": 1
   }
 }

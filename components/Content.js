@@ -1,10 +1,20 @@
+import { motion } from 'framer-motion';
+
 import EpisodesNavigator from './EpisodesNavigator';
 import Player from './Player';
 
 function Content({ data }) {
   return (
-    <section className='w-full flex justify-between'>
-      <div className='w-1/2 flex flex-col justify-center items-start'>
+    <motion.section
+      initial={{ opacity: 0, scale: .9}}
+      animate={{
+        opacity: 1,
+        scale: 1,
+        transition: { duration: .8 }
+      }}
+      className='w-full flex flex-col justify-between p-6 xl:p-0 md:flex-row'
+    >
+      <div className='w-full flex flex-col justify-center items-start md:w-1/2'>
         <header>
           <h1 className='font-oswald text-5xl text-theme-white'>
             NerdCast RPG{' '}
@@ -81,10 +91,10 @@ function Content({ data }) {
         </div>
       </div>
 
-      <div className='w-1/2 flex flex-col justify-center items-end'>
-        <Player audioPath={data.audio} data={data}/>
+      <div className='w-full mt-8 flex flex-col justify-center items-center md:w-1/2 md:items-end md:mt-0'>
+        <Player audioPath={data.audio} data={data} />
       </div>
-    </section>
+    </motion.section>
   );
 }
 
