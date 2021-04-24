@@ -32,9 +32,9 @@ function Player({ audioPath, data }) {
     if (isPlaying) {
       currentTimeTimeOut = setTimeout(() => {
         if (nerdcast.current) {
-          if(durationFormatted === currentTimeFormatted) {
-            nerdcastEnded()
-            return
+          if (durationFormatted === currentTimeFormatted) {
+            nerdcastEnded();
+            return;
           }
 
           const timeFormatted = new Date(
@@ -50,16 +50,20 @@ function Player({ audioPath, data }) {
   }, [isPlaying, currentTime, currentTimeFormatted]);
 
   function nerdcastEnded() {
-    setIsPlaying(false)
-    nerdcast.current.pause()
-    nerdcast.current.currentTime = 0
-    setCurrentTime(nerdcast.current.currentTime)
-    setCurrentTimeFormatted('00:00:00')
+    setIsPlaying(false);
+    nerdcast.current.pause();
+    nerdcast.current.currentTime = 0;
+    setCurrentTime(nerdcast.current.currentTime);
+    setCurrentTimeFormatted('00:00:00');
   }
 
   function playPause() {
     setIsPlaying(!isPlaying);
     isPlaying ? nerdcast.current.pause() : nerdcast.current.play();
+  }
+
+  function setPlayingState(state) {
+    setIsPlaying(state);
   }
 
   function selectTime(value) {
@@ -93,7 +97,12 @@ function Player({ audioPath, data }) {
         onClickReturn10={prevTenSeconds}
         type={data.type}
       />
-      <audio ref={nerdcast} src={data.audio} />
+      <audio
+        ref={nerdcast}
+        src={data.audio}
+        onPlay={() => setPlayingState(true)}
+        onPause={() => setIsPlaying(false)}
+      />
       <input
         className='mt-8 w-full rounded-lg overflow-hidden appearance-none bg-theme-gray h-3 w-128'
         type='range'
