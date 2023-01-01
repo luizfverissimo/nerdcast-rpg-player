@@ -1,9 +1,21 @@
+import { useEffect, useState } from "react"
+
 function BackgroundHome() {
+  const [selectedBackground, setSelectedBackground] = useState('')
+  const backgrounds = [
+    '/cthulhu-bg.jpg',
+    '/cyberpunk-bg.jpg',
+    '/ghanor-bg.jpg'
+  ]
+  useEffect(() => {
+    setSelectedBackground(backgrounds[Math.floor(Math.random() * backgrounds.length)])
+  }, [])
+
   return (
-    <div className='fixed w-full min-h-screen top-0 left-0 bottom-0 right-0'>
+    <div className='fixed top-0 bottom-0 left-0 right-0 w-full min-h-screen'>
       <img
-        className='absolute w-full h-full z-under-10 max-h-screen top-0 left-0 bottom-0 right-0 object-cover opacity-30'
-        src='/cthulhu-bg.jpg'
+        className='absolute top-0 bottom-0 left-0 right-0 object-cover w-full h-full max-h-screen z-under-10 opacity-30'
+        src={selectedBackground}
         alt='Background'
       />
     </div>

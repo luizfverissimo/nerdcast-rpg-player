@@ -12,11 +12,11 @@ function Content({ data }) {
         scale: 1,
         transition: { duration: 0.8 }
       }}
-      className='w-full flex flex-col justify-between p-6 xl:p-0 md:flex-row'
+      className='flex flex-col justify-between w-full p-6 xl:p-0 md:flex-row'
     >
-      <div className='w-full flex flex-col justify-center items-start md:w-1/2'>
+      <div className='flex flex-col items-start justify-center w-full md:w-1/2'>
         <header>
-          <h1 className='font-oswald text-5xl text-theme-white'>
+          <h1 className='text-5xl font-oswald text-theme-white'>
             NerdCast RPG{' '}
             <span
               className={`${
@@ -34,13 +34,13 @@ function Content({ data }) {
                 : 'Crônicas de Ghanor'}
             </span>
           </h1>
-          <p className='font-quattro text-2xl text-theme-white'>
-            {data.type === 'cthulhu' ? '4' : '3'} episódios
+          <p className='text-2xl font-quattro text-theme-white'>
+            {data.type === 'cthulhu' || data.type === 'ghanor'  ? '4' : '3'} episódios
           </p>
         </header>
 
         <div className='mt-8'>
-          <span className='font-oswald text-2xl text-theme-white'>
+          <span className='text-2xl font-oswald text-theme-white'>
             #{data.number}
           </span>
           <h2
@@ -54,10 +54,10 @@ function Content({ data }) {
           >
             {data.title}
           </h2>
-          <span className='font-quattro text-2xl text-theme-white'>
+          <span className='text-2xl font-quattro text-theme-white'>
             {data.duration}
           </span>
-          <p className='mt-8 font-quattro text-lg text-theme-white'>
+          <p className='mt-8 text-lg font-quattro text-theme-white'>
             {data.desc}
           </p>
           <p
@@ -104,7 +104,7 @@ function Content({ data }) {
         </div>
       </div>
 
-      <div className='w-full mt-8 flex flex-col justify-center items-center md:w-1/2 md:items-end md:mt-0'>
+      <div className='flex flex-col items-center justify-center w-full mt-8 md:w-1/2 md:items-end md:mt-0'>
         <Player audioPath={data.audio} data={data} />
       </div>
     </motion.section>

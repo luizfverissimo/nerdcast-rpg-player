@@ -18,10 +18,10 @@
     "delayAnimation": 0
   },
   "ghanor": {
-    "episodes": "3",
+    "episodes": "4",
     "colorText": "text-theme-orange",
     "colorBg": "bg-theme-orange",
-    "img": "/especial-bg.jpg",
+    "img": "/ghanor-bg.jpg",
     "title": "Crônicas de Ghanor",
     "link": "/ghanor-ep1",
     "delayAnimation": 1

@@ -97,7 +97,7 @@
   "ghanor": [
     {
       "type": "ghanor",
-      "bg-image": "/especial-bg.jpg",
+      "bg-image": "/ghanor-bg.jpg",
       "number": 1,
       "title": "O Bruxo, a Princesa e o Dragão",
       "duration": "1 hora e 39 minutos",
@@ -110,7 +110,7 @@
     },
     {
       "type": "ghanor",
-      "bg-image": "/especial-bg.jpg",
+      "bg-image": "/ghanor-bg.jpg",
       "number": 2,
       "title": "O Duque, a Rosa e o Beholder",
       "duration": "2 horas e 15 minutos",
@@ -123,7 +123,7 @@
     },
     {
       "type": "ghanor",
-      "bg-image": "/especial-bg.jpg",
+      "bg-image": "/ghanor-bg.jpg",
       "number": 3,
       "title": "O Corvo, a Periguete e o Bucentauro",
       "duration": "2 horas e 41 minutos",
@@ -133,6 +133,19 @@
       "linkDeezer": "https://deezer.page.link/jG9hQGNDf4CM828D8",
       "linkApple": "https://podcasts.google.com/feed/aHR0cHM6Ly9qb3ZlbW5lcmQuY29tLmJyL2ZlZWQtbmVyZGNhc3Qv/episode/aHR0cHM6Ly9qb3ZlbW5lcmQuY29tLmJyL25lcmRjYXN0L25lcmRjYXN0LTM0MS1lc3BlY2lhbC1ycGctby1jb3J2by1hLXBlcmlndWV0ZS1lLW8tYnVjZW50YXVyby8?sa=X&ved=0CAIQuIEEahcKEwj4o5-T1t3vAhUAAAAAHQAAAAAQAg",
       "audio": "https://nerdcast.jovemnerd.com.br/nerdcast_341_especial_rpg_3.mp3"
+    },
+    {
+      "type": "ghanor",
+      "bg-image": "/ghanor-bg.jpg",
+      "number": 4,
+      "title": "O Bardo, o Santo e o Bico de Tamanco",
+      "duration": "4 horas e 13 minutos",
+      "desc": "Após derrotar o dragão Zamir, não salvar a Princesa Irulan, colocar o reino de cabeça para baixo e destruir o Devorador de Mundos, Ruprest, Nilperto, Feldon, Rufus e Royston descobrem que suas ações têm consequências! Trinta anos se passaram, a linhagem real está acabando e nobres de todos os reinos estão de olho no trono de Ghanor… Mas existem perigos muito maiores do que intrigas palacianas nos corredores do castelo! Dois novos heróis se juntam ao grupo para decidir o destino do reino… E do mundo!",
+      "linkJN": "https://jovemnerd.com.br/nerdcast/nerdcast-rpg/rpg-ghanor-4-o-bardo-o-santo-e-o-bico-de-tamanco/",
+      "linkSpotify": "https://open.spotify.com/episode/0BuNOclh1bvwCWmDLk2TSH?si=y49TQFl8TeO1i9jfJ8SlSA",
+      "linkDeezer": "https://deezer.page.link/BULdvgNEdmciSJck7",
+      "linkApple": "https://podcasts.apple.com/br/podcast/nerdcast-rpg-862-rpg-ghanor-4-o-bardo-o-santo-e-o-bico/id381816509?i=1000591662876",
+      "audio": "https://nerdcast.jovemnerd.com.br/nerdcast_862_especial_rpg_4.mp3"
     }
   ]
 }
